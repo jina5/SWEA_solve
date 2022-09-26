@@ -11,5 +11,4 @@ for tc in range(1,int(input())+1):
     tree = [0]*(n+1)
     cnt = 1
     inorder(1)
-
-    print(f'#{tc} {tree[1]} {tree[n//2]}')
+    print(tree)
